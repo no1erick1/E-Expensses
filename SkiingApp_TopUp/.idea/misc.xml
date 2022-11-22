@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/background_button.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/border_set.xml" value="0.1215" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1215" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/ic_baseline_update_24.xml" value="0.1215" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1215" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/multitext_bottom.xml" value="0.1215" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/rounded_edittext.xml" value="0.1215" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/drawable/shape.xml" value="0.1205" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_about_me.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_acitivity_update_trip.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_acivity_list_trip.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_add_trip.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_add_trip_expenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_expenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_information_trip_expenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_search.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_trip.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_trip_information.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/activity_update_trip_expenses.xml" value="0.11041666666666666" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogadd.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogaddtripexpenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogbackup.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogdeletetrip.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogdeletetripexpenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialoginformation.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogupdate.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/dialogupdatetripexpenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/listtrip.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/listtripextenses.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/layout/listtripsearch.xml" value="0.109375" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/menu/menuadd.xml" value="0.1" />
+        <entry key="..\:/Admin/Documents/SkiingApp_TopUp/app/src/main/res/menu/menuaddtripexpenses.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

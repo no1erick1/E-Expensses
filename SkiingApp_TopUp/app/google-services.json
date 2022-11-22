@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "455135870699",
+    "project_id": "m-expensesapp",
+    "storage_bucket": "m-expensesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455135870699:android:e3d95aedc2c638d8db48ae",
+        "android_client_info": {
+          "package_name": "com.example.skiingapp_topup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455135870699-f75lgjarpii8fcegkbe0v1uaa0grhvgv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlmVdNPGEqKR9mlLhTmrh2IXFR3ibTALc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455135870699-f75lgjarpii8fcegkbe0v1uaa0grhvgv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

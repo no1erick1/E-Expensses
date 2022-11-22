@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Permissions for internet-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkiingApp_TopUp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ActivitySearch"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityUpdateTripExpenses"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityInformationTripExpenses"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddTripExpenses"
+            android:exported="false" />
+        <activity
+            android:name=".AcitivityUpdateTrip"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTripInformation"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTrip"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityExpenses"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAddTrip"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAboutMe"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".AcivityListTrip"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

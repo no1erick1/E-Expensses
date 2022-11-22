@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySearch">
+    <androidx.appcompat.widget.Toolbar
+        app:title="Trip"
+        android:id="@+id/toolbarTripSearch"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <EditText
+            android:id="@+id/TextTripSearch"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="@string/name_of_skiing"
+            android:autofillHints="Trip Skiing" />
+        <Button
+            android:id="@+id/buttonSearchTrip"
+            android:src="@drawable/ic_baseline_list_alt_24"
+            android:layout_width="50dp"
+            android:layout_height="50dp">
+        </Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/apptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:padding="0dip"
+        android:textColor="#0C3D9B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="List Your Trip Skiing" />
+    <ListView
+        android:id="@+id/listviewTripSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

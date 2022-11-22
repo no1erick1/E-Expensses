@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ActivityAddTrip">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+            android:text="Edit this trip"
+        android:textColor="#FFBD5C"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/EditTextUpdateTripName"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/name_of_skiing"
+        android:autofillHints="Trip Skiing" />
+
+    <EditText
+        android:id="@+id/EditTextUpdateTripDestination"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/your_destination" />
+
+    <EditText
+        android:id="@+id/EditTextUpdateTripDescription"
+        android:layout_width="300dp"
+        android:inputType="textMultiLine"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/making_some_description" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_set"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/EditTextUpdateTripDate"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="@string/date"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/dateUpdatePickerButton"
+            style="?android:spinnerStyle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:onClick="openDatePicker"
+            android:text="@string/jan_01_2020"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/EditTextUpdateTripType"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:hint="@string/type"
+        android:inputType="number"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@+id/linearUpdateRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/type_of_trip"
+            android:layout_marginEnd="10dp"
+            android:textSize="15sp" />
+        <RadioGroup
+            android:id="@+id/radioUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioUpdateHighScale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/high" />
+
+            <RadioButton
+                android:id="@+id/radioUpdateMediumScale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medium" />
+
+            <RadioButton
+                android:id="@+id/radioUpdateLowScale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/low" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/EditTextUpdateTripNumberMember"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="@string/number_member"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/EditTextUpdateTripNumberDate"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:hint="@string/number_date"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/EditTextUpdateTripRequireRiskAssesment"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/require_risk_assesment"
+        android:inputType="number"
+        android:visibility="gone" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_compat"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/require_risk_assesment"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonUpdateTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update information this trip" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SkiingApp_TopUp</string>
+    <string name="new_skiing_trip">New Skiing Trip</string>
+    <string name="name_of_skiing">Name of skiing</string>
+    <string name="create_new_skiing_trip">Create new skiing trip</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="type_of_trip">Type of Trip</string>
+    <string name="your_destination">Your Destination</string>
+    <string name="making_some_description">Making some description</string>
+    <string name="date">Date</string>
+    <string name="jan_01_2020">JAN 01 2020</string>
+    <string name="require_risk_assesment">Require Risk Assesment</string>
+    <string name="type">Type</string>
+    <string name="number_member">Number Member</string>
+    <string name="number_date">Number Date</string>
+    <string name="success">aaaaaaaa</string>
+</resources>

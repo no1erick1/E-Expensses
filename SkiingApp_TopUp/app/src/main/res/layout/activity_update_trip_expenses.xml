@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".ActivityUpdateTripExpenses">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Update expenses trip"
+        android:textColor="#FFBD5C"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/EditTextTripAmountUpdate"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:hint="Amount after add trip"
+        android:autofillHints="Trip Skiing" />
+    <Button
+        android:id="@+id/datePickerButtonUpdateExpenses"
+        style="?android:spinnerStyle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="openDatePicker"
+        android:text="@string/jan_01_2020"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <EditText
+        android:id="@+id/EditTextTripDateExpensesUpdate"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        android:hint="Add more date information" />
+
+    <EditText
+        android:id="@+id/EditTextTripTimeExpensesUpdate"
+        android:layout_width="300dp"
+        android:inputType="time"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:hint="Add more time for trip" />
+    <EditText
+        android:id="@+id/EditTextTripCommentUpdate"
+        android:layout_width="300dp"
+        android:inputType="textMultiLine"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Let's comment or note for trip" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border_set"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonUpdateTripExpenses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update expenses trip" />
+</LinearLayout>
